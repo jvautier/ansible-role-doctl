@@ -1,0 +1,8 @@
+---
+- name: "Install doctl"
+  when: doctl_version is defined
+  unarchive:
+    src: https://github.com/digitalocean/doctl/releases/download/v{{ doctl_version }}/doctl-{{ doctl_version }}-linux-amd64.tar.gz
+    dest: /usr/local/bin
+    remote_src: true
+    mode: 0777
