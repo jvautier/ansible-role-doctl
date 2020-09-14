@@ -1,0 +1,9 @@
+---
+fullname: jvautier/ansible-role-doctl
+description: Install doctl client through ansible
+tags:
+  - ansible
+  - ansible-role
+  - doctl
+  - digitalocean
+github: {}
